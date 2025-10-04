@@ -1,224 +1,133 @@
 {
-  "name": "Your Name",
-  "label": "Optional Label",
-  "image_path": "img/default-image.png",
+  "name": "Dominic Varghese",
+  "label": "PhD Candidate in Materials Science",
+  "image_path": "img/Dominic_Varghese.jpeg",
   "contact": {
-    "email": "FirstLast@Sample.com",
-    "phone": "123-456-7890",
-    "location": "City, State, Country"
+    "email": "vargh085@umn.edu",
+    "phone": "+1-9522459931",
+    "location": "Minneapolis, MN"
   },
-  "summary": "A short summary of who you are, your background, experience, and interests to give visitors a quick introduction to you.",
+  "summary": "PhD candidate in Materials Science with a proven track record of leveraging machine learning and first-principles calculations to solve complex materials engineering problems. Seeking to apply expertise in developing predictive models and computational simulations to drive new technology development in a corporate R&D environment.",
   "base_url": "127.0.0.1:5500",
   "social_links": [
     {
-      "label": "Personal Website",
-      "url": "https://sample.com",
-      "svg_path": "img/globe.svg"
-    },
-    {
-      "label": "First Social",
-      "url": "https://sample.com",
+      "label": "LinkedIn",
+      "url": "https://linkedin.com/in/dominic-varghese-408682219/",
       "svg_path": "img/linkedin.svg"
-    },
-    {
-      "label": "Second Social",
-      "url": "https://sample.com",
-      "svg_path": "img/github.svg"
     }
   ],
   "work_experience": [
     {
-      "company": "Latest Job",
-      "position": "Position One",
-      "url": "https://sample.com",
-      "start_date": "01/01/2020",
+      "company": "CEMS, University of Minnesota",
+      "position": "Graduate Research Assistant",
+      "url": "",
+      "start_date": "12/2023",
       "end_date": "Present",
-      "summary": "Short summary about present job and what the position entails",
+      "summary": "Research on the flexoelectric effect in binary metal oxides under the guidance of Prof. Turan Birol.",
       "highlights": [
-        "First Duty of Current Job",
-        "Second Duty of Current Job",
-        "Third Duty of Current Job"
+        "Discovered that epitaxial strain significantly enhances the flexoelectric coefficient in alkaline-earth-metal oxides by lowering optical phonon mode frequencies.",
+        "Quantified the relationship between strain and flexoelectric tensor components using first-principles calculations (ABINIT), Landau theory, and Group theory.",
+        "Fine-tuning foundational Machine Learning Interatomic Potentials (MLIPs) to enable accurate and efficient modeling of flexoelectricity in larger, more complex crystal structures."
       ]
     },
     {
-      "company": "Previous Job",
-      "position": "Position Two",
-      "url": "https://sample.com",
-      "start_date": "01/01/2010",
-      "end_date": "01/01/2020",
-      "summary": "Short summary about previous job and what that position entailed",
+      "company": "SSCU, Indian Institute of Science",
+      "position": "Undergraduate Researcher",
+      "url": "",
+      "start_date": "08/2022",
+      "end_date": "06/2023",
+      "summary": "Research on the non-linear Hall effect in Ferroelectrics under the guidance of Prof. Awadhesh Narayan.",
       "highlights": [
-        "First Duty of Previous Job",
-        "Second Duty of Previous Job",
-        "Third Duty of Previous Job"
+        "Identified optimal doping concentrations in ferroelectric perovskites that maximize the Berry Curvature Dipole (BCD), leading to an enhancement of the Non-Linear Hall effect.",
+        "Systematically varied doping concentrations and computed BCD using Quantum Espresso and Wannier90, successfully demonstrating a tunable electronic response."
       ]
     }
   ],
   "projects": [
     {
-      "title": "My First Project",
-      "summary": "Short summary about my first project",
-      "url": "https://sample.com",
+      "title": "Fraud Detection in Financial Transactions Using Machine Learning",
+      "summary": "Course project focusing on applying various machine learning classifiers to a large, imbalanced financial dataset to detect fraudulent transactions.",
+      "url": "",
       "highlights": [
-        "First Highlight of Project One",
-        "Second Highlight of Project One",
-        "Third Highlight of Project One"
+        "Engineered and evaluated multiple classifiers (K-Means Clustering, SVM, Naive Bayes) to detect fraud within a highly imbalanced dataset of 1 million transactions.",
+        "Optimized a SVM with an RBF kernel, achieving a robust AUC of 0.93 and capturing 69% of fraudulent cases at a practical 5% False Positive Rate.",
+        "Developed a K-Means clustering pipeline using Random Under-Sampling and PCA to overcome class imbalance, boosting model performance to a peak F1-score of 0.80."
       ],
-      "images": [
-        {
-          "img_path": "https://picsum.photos/600/338?random=1",
-          "caption": "Image Caption 1"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=2",
-          "caption": "Image Caption 2"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=3",
-          "caption": "Image Caption 3"
-        }
-      ]
+      "images": []
     },
     {
-      "title": "My Second Project",
-      "summary": "Short summary about my second project",
-      "url": "https://sample.com",
+      "title": "Piezoelectric Modulus Prediction Using Machine Learning",
+      "summary": "Developed a complete machine learning pipeline to classify and predict the piezoelectric modulus for a large set of inorganic materials from the JARVIS database.",
+      "url": "",
       "highlights": [
-        "First Highlight of Project Two",
-        "Second Highlight of Project Two",
-        "Third Highlight of Project Two"
+        "Constructed a dual classification and regression pipeline to predict the piezoelectric modulus for 1,354 unique inorganic materials.",
+        "Achieved 78% accuracy with an XGBoost classifier to identify piezoelectric materials, utilizing SHAP analysis to discover that crystal symmetry was a critical predictive feature.",
+        "Engineered a LightGBM regression model that accurately predicted piezoelectric constants, achieving a final Root Mean Squared Error of 0.49 by integrating a pre-trained model for band gap prediction."
       ],
-      "images": [
-        {
-          "img_path": "https://picsum.photos/600/338?random=4",
-          "caption": "Image Caption 4"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=5",
-          "caption": "Image Caption 5"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=6",
-          "caption": "Image Caption 6"
-        }
-      ]
-    }
-  ],
-  "volunteer_experience": [
-    {
-      "organization": "Latest Organization",
-      "position": "Position One",
-      "url": "https://sample.com",
-      "start_date": "01/01/2020",
-      "end_date": "Present",
-      "summary": "Short summary about present volunteer work",
-      "highlights": [
-        "First Duty of Current Organization",
-        "Second Duty of Current Organization",
-        "Third Duty of Current Organization"
-      ]
+      "images": []
     },
     {
-      "organization": "Previous Organization",
-      "position": "Position Two",
-      "url": "https://sample.com",
-      "start_date": "01/01/2010",
-      "end_date": "01/01/2020",
-      "summary": "Short summary about previous volunteer work",
-      "highlights": [
-        "First Duty of Previous Organization",
-        "Second Duty of Previous Organization",
-        "Third Duty of Previous Organization"
-      ]
+        "title": "Predicting Band Gap in Inorganic Materials Using Machine Learning",
+        "summary": "Course project exploring various machine learning algorithms to predict band gaps and classify materials as conductors or insulators.",
+        "url": "",
+        "highlights": [
+          "Explored multiple ML algorithms - regression, SVM, decision trees and neural networks - to create a predictive framework for inorganic material band gaps.",
+          "Developed a classification pipeline that successfully categorized materials as conductors or insulators, identifying XGBoost as the most accurate and efficient model for the task.",
+          "Demonstrated that Artificial Neural Networks outperformed all other tested models for the regression task, establishing them as the superior method for predicting precise band gap values."
+        ],
+        "images": []
     }
   ],
+  "volunteer_experience": [],
   "education": [
     {
-      "institution": "Institution One",
-      "location": "Institution One Location",
-      "url": "https://sample.com",
+      "institution": "University of Minnesota",
+      "location": "Twin-Cities, US",
+      "url": "",
       "degrees": [
-        "Master of Science in Computer Science",
-        "Minor in Mathematics"
+        "Doctor of Philosophy - Materials Science"
       ],
-      "honors": ["Outstanding Student Award", "Dean's List"],
-      "gpa_cumulative": "3.5",
-      "gpa_major": "4.0",
-      "graduation_date": "01/01/2005"
+      "honors": [],
+      "gpa_cumulative": "3.8",
+      "gpa_major": "",
+      "graduation_date": "2028"
     },
     {
-      "institution": "Institution Two",
-      "location": "Institution Two Location",
-      "url": "https://sample.com",
-      "degrees": ["Bachelor of Science in Physics"],
-      "honors": ["Scholarship Recipient"],
-      "gpa_cumulative": "3.2",
-      "gpa_major": "3.9",
-      "graduation_date": "01/01/2000"
-    }
+      "institution": "Indian Institute of Science",
+      "location": "Bengaluru, India",
+      "url": "",
+      "degrees": [
+        "Master of Science - Chemistry"
+      ],
+      "honors": [],
+      "gpa_cumulative": "8.8",
+      "gpa_major": "",
+      "graduation_date": "07/2023"
+    },
+    {
+        "institution": "Indian Institute of Science",
+        "location": "Bengaluru, India",
+        "url": "",
+        "degrees": [
+          "Bachelor of Science Research - Chemistry (Major) and Materials (Minor)"
+        ],
+        "honors": [],
+        "gpa_cumulative": "8.6",
+        "gpa_major": "",
+        "graduation_date": "07/2022"
+      }
   ],
   "skills": [
-    {
-      "name": "My First Skill",
-      "proficiency": 100,
-      "proficiency_label": "Proficiency Level"
-    },
-    {
-      "name": "My Second Skill",
-      "proficiency": 80,
-      "proficiency_label": "Proficiency Level"
-    }
+    { "name": "Python", "proficiency": 95, "proficiency_label": "Advanced" },
+    { "name": "PyTorch", "proficiency": 90, "proficiency_label": "Advanced" },
+    { "name": "VASP", "proficiency": 90, "proficiency_label": "Advanced" },
+    { "name": "Quantum Espresso", "proficiency": 90, "proficiency_label": "Advanced" },
+    { "name": "First-principles calculations (DFT, DFPT)", "proficiency": 95, "proficiency_label": "Expert" },
+    { "name": "High Performance Computing", "proficiency": 85, "proficiency_label": "Advanced" }
   ],
-  "interests": [
-    {
-      "name": "My First Hobby",
-      "summary": "Short summary about my first Hobby",
-      "images": [
-        {
-          "img_path": "https://picsum.photos/600/338?random=7",
-          "caption": "Image Caption 7"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=8",
-          "caption": "Image Caption 8"
-        }
-      ]
-    },
-    {
-      "name": "My Second Hobby",
-      "summary": "Short summary about my second hobby",
-      "images": [
-        {
-          "img_path": "https://picsum.photos/600/338?random=9",
-          "caption": "Image Caption 9"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=10",
-          "caption": "Image Caption 10"
-        }
-      ]
-    }
-  ],
+  "interests": [],
   "languages": [
-    {
-      "language": "English",
-      "fluency": "Native speaker"
-    },
-    {
-      "language": "American Sign Language",
-      "fluency": "Professional Working Proficiency"
-    }
+    { "language": "English", "fluency": "Full Professional Proficiency" }
   ],
-  "references": [
-    {
-      "name": "Person One",
-      "relation": "Previous Boss",
-      "reference": "Some nice things that Person One said about you, your work ethic, and how you provided value to their team."
-    },
-    {
-      "name": "Person Two",
-      "relation": "Previous Coworker",
-      "reference": "More kind things that Person Two said about you, what it was like working with you, and things you've accomplished."
-    }
-  ]
+  "references": []
 }
