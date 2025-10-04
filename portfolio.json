@@ -13,12 +13,12 @@
     {
       "label": "LinkedIn",
       "url": "https://linkedin.com/in/dominic-varghese-408682219/",
-      "svg_path": "img/globe.svg"
+      "svg_path": "img/linkedin.svg"
     },
     {
       "label": "Website",
       "url": "https://dominicvarghese.github.io/",
-      "svg_path": "img/linkedin.svg"
+      "svg_path": "img/globe.svg"
     }
   ],
   "work_experience": [
@@ -124,8 +124,8 @@
   ],
   "skills": [
     { "name": "First-principles calculations (DFT, DFPT)", "proficiency": 95, "proficiency_label": "Expert" },
-    { "name": "High Performance Computing", "proficiency": 85, "proficiency_label": "Advanced" }
-    { "name": "Python", "proficiency": 95, "proficiency_label": "Advanced" },
+    { "name": "High Performance Computing", "proficiency": 85, "proficiency_label": "Advanced" },
+    { "name": "Python", "proficiency": 95, "proficiency_label": "Advanced" }
   ],
   "interests": [],
   "languages": [
