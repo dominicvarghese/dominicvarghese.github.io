@@ -13,6 +13,11 @@
     {
       "label": "LinkedIn",
       "url": "https://linkedin.com/in/dominic-varghese-408682219/",
+      "svg_path": "img/globe.svg"
+    },
+    {
+      "label": "Website",
+      "url": "https://dominicvarghese.github.io/",
       "svg_path": "img/linkedin.svg"
     }
   ],
@@ -20,7 +25,7 @@
     {
       "company": "CEMS, University of Minnesota",
       "position": "Graduate Research Assistant",
-      "url": "",
+      "url": "https://birol.cems.umn.edu/",
       "start_date": "12/2023",
       "end_date": "Present",
       "summary": "Research on the flexoelectric effect in binary metal oxides under the guidance of Prof. Turan Birol.",
@@ -33,7 +38,7 @@
     {
       "company": "SSCU, Indian Institute of Science",
       "position": "Undergraduate Researcher",
-      "url": "",
+      "url": "https://sites.google.com/site/awadheshnarayan00/Home",
       "start_date": "08/2022",
       "end_date": "06/2023",
       "summary": "Research on the non-linear Hall effect in Ferroelectrics under the guidance of Prof. Awadhesh Narayan.",
@@ -118,12 +123,9 @@
       }
   ],
   "skills": [
-    { "name": "Python", "proficiency": 95, "proficiency_label": "Advanced" },
-    { "name": "PyTorch", "proficiency": 90, "proficiency_label": "Advanced" },
-    { "name": "VASP", "proficiency": 90, "proficiency_label": "Advanced" },
-    { "name": "Quantum Espresso", "proficiency": 90, "proficiency_label": "Advanced" },
     { "name": "First-principles calculations (DFT, DFPT)", "proficiency": 95, "proficiency_label": "Expert" },
     { "name": "High Performance Computing", "proficiency": 85, "proficiency_label": "Advanced" }
+    { "name": "Python", "proficiency": 95, "proficiency_label": "Advanced" },
   ],
   "interests": [],
   "languages": [
