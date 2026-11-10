@@ -15,8 +15,11 @@
   <meta property="og:image:alt" content="Portrait of {{ name }}">
   <meta name="theme-color" content="#f8f9f6">
   <link rel="icon" href="favicon.ico" sizes="any">
-  <link rel="stylesheet" href="css/main.css">
-  <script src="js/app.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css?v=20261110-effects">
+  <script src="js/app.js?v=20261110-effects" defer></script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -34,6 +37,7 @@
   <div class="hero-copy">
     <p class="eyebrow"><span class="status-dot"></span> MATERIALS SCIENCE × MACHINE LEARNING</p>
     <h1>Understanding materials.<br><em>Building what’s next.</em></h1>
+    <p class="role-line"><span class="sr-only">Materials scientist, researcher, and scientific software builder.</span><span class="typing-text" aria-hidden="true">Materials scientist</span></p>
     <p class="intro">I’m {{ name }}, a computational materials science Ph.D. candidate at the <strong>University of Minnesota.</strong></p>
     <p class="hero-summary">{{ summary }}</p>
     <div class="actions"><a class="button primary" href="#projects">Explore my work <span aria-hidden="true">↓</span></a><a class="button" href="{{ resume_path }}">Download résumé <span aria-hidden="true">↗</span></a></div>
