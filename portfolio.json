@@ -1,14 +1,14 @@
 {
   "name": "Dominic Varghese",
-  "label": "PhD Candidate in Materials Science",
+  "label": "Computational Materials Science Ph.D. Candidate",
   "image_path": "img/Dominic_Varghese.jpeg",
   "contact": {
     "email": "vargh085@umn.edu",
     "phone": "+1-9522459931",
     "location": "Minneapolis, MN"
   },
-  "summary": "PhD candidate in Materials Science with a proven track record of leveraging machine learning and first-principles calculations to solve complex materials engineering problems. Seeking to apply expertise in developing predictive models and computational simulations to drive new technology development in a corporate R&D environment.",
-  "base_url": "127.0.0.1:5500",
+  "summary": "I combine first-principles simulations, physics-informed machine learning, and high-performance computing to understand materials and accelerate their discovery. My research connects oxide interfaces, lattice dynamics, and machine-learning interatomic potentials.",
+  "base_url": "https://dominicvarghese.github.io",
   "social_links": [
     {
       "label": "LinkedIn",
@@ -16,9 +16,8 @@
       "svg_path": "img/linkedin.svg"
     },
     {
-      "label": "Website",
-      "url": "https://dominicvarghese.github.io/",
-      "svg_path": "img/globe.svg"
+      "label": "GitHub",
+      "url": "https://github.com/dominicvarghese"
     }
   ],
   "work_experience": [
@@ -26,21 +25,32 @@
       "company": "CEMS, University of Minnesota",
       "position": "Graduate Research Assistant",
       "url": "https://birol.cems.umn.edu/",
-      "start_date": "12/2023",
+      "start_date": "Dec 2023",
       "end_date": "Present",
-      "summary": "Research on the flexoelectric effect in binary metal oxides under the guidance of Prof. Turan Birol.",
+      "summary": "Modeling the flexoelectric effect in oxides with Prof. Turan Birol.",
       "highlights": [
-        "Discovered that epitaxial strain significantly enhances the flexoelectric coefficient in alkaline-earth-metal oxides by lowering optical phonon mode frequencies.",
-        "Quantified the relationship between strain and flexoelectric tensor components using first-principles calculations (ABINIT), Landau theory, and Group theory.",
-        "Fine-tuning foundational Machine Learning Interatomic Potentials (MLIPs) to enable accurate and efficient modeling of flexoelectricity in larger, more complex crystal structures."
+        "Build DFT datasets with VASP and ABINIT, fine-tune equivariant GNN interatomic potentials (MACE, NequIP, PET), and run simulations on GPU-accelerated HPC clusters.",
+        "Study how epitaxial strain enhances flexoelectric response through optical phonon softening using DFPT, Landau theory, and group theory."
+      ]
+    },
+    {
+      "company": "CEMS, University of Minnesota",
+      "position": "Physics-informed ML for phonon prediction",
+      "url": "https://birol.cems.umn.edu/",
+      "start_date": "Mar 2025",
+      "end_date": "Present",
+      "summary": "Predicting lattice dynamics with Prof. Turan Birol.",
+      "highlights": [
+        "Predict high-dimensional dynamical matrices from nearest-neighbor force-constant features to infer phonon dispersions under strain and pressure.",
+        "Validate predictions against neutron-scattering experiments and capture strain-induced acoustic branch softening."
       ]
     },
     {
       "company": "SSCU, Indian Institute of Science",
       "position": "Undergraduate Researcher",
       "url": "https://sites.google.com/site/awadheshnarayan00/Home",
-      "start_date": "08/2022",
-      "end_date": "06/2023",
+      "start_date": "Aug 2022",
+      "end_date": "Jun 2023",
       "summary": "Research on the non-linear Hall effect in Ferroelectrics under the guidance of Prof. Awadhesh Narayan.",
       "highlights": [
         "Identified optimal doping concentrations in ferroelectric perovskites that maximize the Berry Curvature Dipole (BCD), leading to an enhancement of the Non-Linear Hall effect.",
@@ -50,37 +60,70 @@
   ],
   "projects": [
     {
-      "title": "Fraud Detection in Financial Transactions Using Machine Learning",
-      "summary": "Course project focusing on applying various machine learning classifiers to a large, imbalanced financial dataset to detect fraudulent transactions.",
-      "url": "",
+      "title": "Polymer property prediction",
+      "date": "Recent code",
+      "category": "Graph neural networks",
+      "summary": "From repeat-unit SMILES to five polymer properties: a chemistry-aware pipeline combining molecular graphs with physics-informed residual learning.",
       "highlights": [
-        "Engineered and evaluated multiple classifiers (K-Means Clustering, SVM, Naive Bayes) to detect fraud within a highly imbalanced dataset of 1 million transactions.",
-        "Optimized a SVM with an RBF kernel, achieving a robust AUC of 0.93 and capturing 69% of fraudulent cases at a practical 5% False Positive Rate.",
-        "Developed a K-Means clustering pipeline using Random Under-Sampling and PCA to overcome class imbalance, boosting model performance to a peak F1-score of 0.80."
+        "Benchmarks GraphGPS, PNA, GATv2, and GINE with cluster-based cross-validation.",
+        "Repository-reported five-fold OOF weighted MAE: 0.05154 for the physics-cascade hybrid."
       ],
-      "images": []
+      "tags": [
+        "PyTorch Geometric",
+        "RDKit",
+        "GNNs"
+      ],
+      "url": "https://github.com/dominicvarghese/polymer-property-prediction"
+    },
+    {
+      "title": "Crystal Symmetry Lab",
+      "date": "Interactive tool",
+      "category": "Scientific software",
+      "summary": "A browser-based 3D workbench for exploring crystal symmetry, strain-induced symmetry breaking, and physical-property tensors.",
+      "highlights": [
+        "Visualizes space-group operations and atomic site symmetries from CIF and VASP structure files.",
+        "Connects strain and order parameters to subgroup changes and symmetry-allowed tensors."
+      ],
+      "tags": [
+        "Crystallography",
+        "3D visualization",
+        "Tensor analysis"
+      ],
+      "url": "https://github.com/dominicvarghese/crystal-symmetry",
+      "demo_url": "https://dominicvarghese.github.io/crystal-symmetry/"
+    },
+    {
+      "title": "WARDEN · AI co-scientist",
+      "date": "2026 project",
+      "category": "AI for atomistic simulation",
+      "summary": "An in-silico workflow for atomic layer deposition research, combining agent-guided screening with deterministic physics checks.",
+      "highlights": [
+        "Includes bounded feedback loops, evidence acquisition, persistent records, and reaction-kinetics workflows.",
+        "Research prototype: the offline demo is synthetic; live services and MACE scientific performance remain unverified in the repository."
+      ],
+      "tags": [
+        "MLIPs",
+        "LLM agents",
+        "Reaction screening"
+      ],
+      "url": "https://github.com/dominicvarghese/donuman-ai-scientist"
     },
     {
       "title": "Piezoelectric Modulus Prediction Using Machine Learning",
       "summary": "Developed a complete machine learning pipeline to classify and predict the piezoelectric modulus for a large set of inorganic materials from the JARVIS database.",
       "url": "",
       "highlights": [
-        "Constructed a dual classification and regression pipeline to predict the piezoelectric modulus for 1,354 unique inorganic materials.",
-        "Achieved 78% accuracy with an XGBoost classifier to identify piezoelectric materials, utilizing SHAP analysis to discover that crystal symmetry was a critical predictive feature.",
-        "Engineered a LightGBM regression model that accurately predicted piezoelectric constants, achieving a final Root Mean Squared Error of 0.49 by integrating a pre-trained model for band gap prediction."
+        "Trained on 1,354 inorganic materials from JARVIS; reached 78% classification accuracy.",
+        "Used crystal symmetry features and transfer learning to achieve a regression RMSE of 0.49."
       ],
-      "images": []
-    },
-    {
-        "title": "Predicting Band Gap in Inorganic Materials Using Machine Learning",
-        "summary": "Course project exploring various machine learning algorithms to predict band gaps and classify materials as conductors or insulators.",
-        "url": "",
-        "highlights": [
-          "Explored multiple ML algorithms - regression, SVM, decision trees and neural networks - to create a predictive framework for inorganic material band gaps.",
-          "Developed a classification pipeline that successfully categorized materials as conductors or insulators, identifying XGBoost as the most accurate and efficient model for the task.",
-          "Demonstrated that Artificial Neural Networks outperformed all other tested models for the regression task, establishing them as the superior method for predicting precise band gap values."
-        ],
-        "images": []
+      "images": [],
+      "date": "Spring 2024",
+      "category": "Materials ML",
+      "tags": [
+        "XGBoost",
+        "LightGBM",
+        "SHAP"
+      ]
     }
   ],
   "volunteer_experience": [],
@@ -95,7 +138,8 @@
       "honors": [],
       "gpa_cumulative": "3.8",
       "gpa_major": "",
-      "graduation_date": "2028"
+      "graduation_date": "2028 (expected)",
+      "period": "Sep 2023 – 2028 (expected)"
     },
     {
       "institution": "Indian Institute of Science",
@@ -107,29 +151,99 @@
       "honors": [],
       "gpa_cumulative": "8.8",
       "gpa_major": "",
-      "graduation_date": "07/2023"
+      "graduation_date": "07/2023",
+      "period": "Aug 2022 – Jul 2023"
     },
     {
-        "institution": "Indian Institute of Science",
-        "location": "Bengaluru, India",
-        "url": "",
-        "degrees": [
-          "Bachelor of Science Research - Chemistry (Major) and Materials (Minor)"
-        ],
-        "honors": [],
-        "gpa_cumulative": "8.6",
-        "gpa_major": "",
-        "graduation_date": "07/2022"
-      }
+      "institution": "Indian Institute of Science",
+      "location": "Bengaluru, India",
+      "url": "",
+      "degrees": [
+        "Bachelor of Science Research - Chemistry (Major) and Materials (Minor)"
+      ],
+      "honors": [],
+      "gpa_cumulative": "8.6",
+      "gpa_major": "",
+      "graduation_date": "07/2022",
+      "period": "Aug 2018 – Jul 2022"
+    }
   ],
   "skills": [
-    { "name": "First-principles calculations (DFT, DFPT)", "proficiency": 95, "proficiency_label": "Expert" },
-    { "name": "High Performance Computing", "proficiency": 85, "proficiency_label": "Advanced" },
-    { "name": "Python", "proficiency": 95, "proficiency_label": "Advanced" }
+    {
+      "name": "First-principles calculations (DFT, DFPT)",
+      "proficiency": 95,
+      "proficiency_label": "Expert"
+    },
+    {
+      "name": "High Performance Computing",
+      "proficiency": 85,
+      "proficiency_label": "Advanced"
+    },
+    {
+      "name": "Python",
+      "proficiency": 95,
+      "proficiency_label": "Advanced"
+    }
   ],
   "interests": [],
   "languages": [
-    { "language": "English", "fluency": "Full Professional Proficiency" }
+    {
+      "language": "English",
+      "fluency": "Full Professional Proficiency"
+    }
   ],
-  "references": []
+  "references": [],
+  "updated": "November 2026",
+  "resume_path": "Dominic_Varghese_Resume (2).pdf",
+  "skill_groups": [
+    {
+      "name": "Simulation & physics",
+      "items": [
+        "DFT / DFPT",
+        "Molecular dynamics",
+        "VASP",
+        "ABINIT",
+        "Quantum Espresso",
+        "LAMMPS",
+        "Wannier90"
+      ]
+    },
+    {
+      "name": "Machine learning",
+      "items": [
+        "PyTorch",
+        "Scikit-learn",
+        "Graph neural networks",
+        "MACE / NequIP / PET",
+        "Physics-informed ML",
+        "Agentic AI"
+      ]
+    },
+    {
+      "name": "Scientific computing",
+      "items": [
+        "Python",
+        "C",
+        "Bash",
+        "Git",
+        "GPU computing",
+        "HPC workflows"
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "title": "Growth of Co₉S₈ Islands on Cu₂S Nano-Disks",
+      "citation": "Jana, B., Varghese, D., et al. · Journal of Physical Chemistry C · 2023 · 127, 8873–8879"
+    },
+    {
+      "title": "Cobalt(I)-Catalyzed Borylation of Unactivated Alkyl Bromides",
+      "citation": "Verma, P. K., …, Varghese, D., et al. · Organic Letters · 2020 · 22, 1431–1436"
+    }
+  ],
+  "honors": [
+    "NSF ACCESS Discover allocation · 2025–2026",
+    "APS Global Summit oral presentation · 2025",
+    "KVPY Fellowship · 2018–2023"
+  ]
 }
